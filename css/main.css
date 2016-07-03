@@ -15,10 +15,29 @@ img {
  max-width: 100%;
  height: auto;
 }
-header, footer {
+header, footer, nav.navbar {
   color: white;
   background-color: #ba0f31;
  }
+.navbar {
+  border: none;
+  border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+ color: white;
+}
+.navbar-toggle {
+ border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: #ddd;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+ background-color: #ba0f31;
+} 
 footer a, footer a:hover, footer a:visited, footer a:focus {
  color: white;
  text-decoration: none;

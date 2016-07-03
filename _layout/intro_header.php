@@ -9,3 +9,4 @@
 				</div>
 			</div>		
 		</header>
+<?php require "_layout/nav.php";?>
